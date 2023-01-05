@@ -1,4 +1,4 @@
-package com.crodu.CroduPizzeria.pizza;
+package com.crodu.CroduPizzeria.pizza.repository;
 
 import com.crodu.CroduPizzeria.pizza.entity.IngredientEntity;
 import com.crodu.CroduPizzeria.pizza.entity.PizzaEntity;

@@ -1,12 +1,11 @@
 package com.crodu.CroduPizzeria;
 
-import com.crodu.CroduPizzeria.pizza.IngredientRepository;
+import com.crodu.CroduPizzeria.pizza.repository.IngredientRepository;
 import com.crodu.CroduPizzeria.pizza.entity.IngredientEntity;
 import com.crodu.CroduPizzeria.pizza.entity.PizzaEntity;
-import com.crodu.CroduPizzeria.pizza.PizzaRepository;
+import com.crodu.CroduPizzeria.pizza.repository.PizzaRepository;
 import java.util.Set;
 import java.util.UUID;
-import javax.persistence.criteria.CriteriaBuilder;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
